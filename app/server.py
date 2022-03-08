@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/file/d/1Mh-YF82TjTscwut38UNmmeJZOakdFEl4/view?usp=sharing'
-export_file_name = 'export.pkl'
+export_file_url = 'https://www.dropbox.com/s/ht2nienje3jsem1/export2.pkl?dl=0'
+export_file_name = 'export2.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes=["yellow marsh dart","wandering_glider","trumpet_tail","scarlet skimmer","pied paddy skimmer","fulvous forest skimmer","ditch_jewel","crimson_tailed_marsh_hawk","crimson marsh glider","coral_tailed_cloud_wing","common picture wing","common club tail","blue_marsh_hawk","blue ground skimmer","blue_grass_dart","black_stream_glider"]
 path = Path(__file__).parent
 
 app = Starlette()
